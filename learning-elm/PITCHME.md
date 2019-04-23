@@ -1,7 +1,6 @@
 ---
-@title[Elm Language]
+@title[Learning The Elm Language]
 
----
 ## Was ist Elm
 ---
 ## Strangenesses
@@ -19,7 +18,7 @@ Anonymous function:
 ```
 
 Elm’s anonymous functions differ from named functions in three ways.
-@ul
+@ul[](false)
 - They have no names
 - They begin with a "\"
 - Their parameters are followed by "->" instead of "="
@@ -91,7 +90,7 @@ wert = if a > 0 then a else -1 * a
 
 ### Operators
 
-@ul
+@ul[](false)
 - Always accept two arguments
 - Are functions
 - Can be used infix, or prefix as "(op)":
@@ -103,8 +102,11 @@ wert = if a > 0 then a else -1 * a
 ## Collections
 
 List - [1,2,3]
+
 Record - {x = 1, y = "a"}
+
 Tuple - (1,'a')
+
 
 All are immutable!
 ---
