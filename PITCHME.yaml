@@ -1,11 +1,12 @@
 title: "h9h-slides"
-description: "Elm"
+description: "Learning The Elm Language"
 thumbnail: assets/img/logo.jpg
 footnote: "Elm - (c) Heinke 2019"
 gatoken: UA-136559606-1
 
 # For Presentations, set to true:
 eager-loading : true
+remote-control : true
 
 # Status
 published : true
@@ -25,3 +26,6 @@ mathjax : TeX-AMS_HTML-full
 # overrides
 logo : assets/img/logo.jpg
 theme-override : assets/css/PITCHME.css
+
+# layout
+layout : center-left

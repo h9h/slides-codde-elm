@@ -54,8 +54,8 @@ In JavaScript you **could** write
 
 <table>
   <tr>
-    <th>JavaScript</th>
-    <th>Elm</th>
+    <th width="50%">JavaScript</th>
+    <th width="50%">Elm</th>
   </tr>
   <tr>
     <td>"storm".length</td>
@@ -113,8 +113,8 @@ All are immutable!
 
 <table>
   <tr>
-    <th>JavaScript Array</th>
-    <th>Elm List</th>
+    <th width="50%">JavaScript Array</th>
+    <th width="50%">Elm List</th>
   </tr>
   <tr>
     <td>[ 1, 2, 3 ].length</td>
@@ -148,8 +148,8 @@ All are immutable!
 
 <table>
   <tr>
-    <th>JavaScript Object</th>
-    <th>Elm Record</th>
+    <th width="50%">JavaScript Object</th>
+    <th width="50%">Elm Record</th>
   </tr>
   <tr>
     <td>{ name: "Li", cats: 2 }</td>
@@ -182,9 +182,9 @@ All are immutable!
 
 <table>
   <tr>
-    <th>List</th>
-    <th>Record</th>
-    <th>Tuple</th>
+    <th width="33%">List</th>
+    <th width="33%">Record</th>
+    <th width="33%">Tuple</th>
   </tr>
   <tr>
     <td>Variable Length</td>
@@ -217,6 +217,6 @@ All are immutable!
 
 ## Elm Architecture
 
-![](assets/img/elm-architecture.png)
+@img[](assets/img/elm-architecture.png)
 
 ---
