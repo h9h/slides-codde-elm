@@ -251,3 +251,7 @@ div.docslink a:hover {
   opacity: 0.75 !important;
   font-size: 75% !important;
 }
+
+table {
+  font-size: 80%;
+}
