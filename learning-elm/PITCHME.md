@@ -7,21 +7,23 @@
 ---
 ## Functions 1
 
-Named function:
-```elm
-isPositive n = n > 0
-```
 
-Anonymous function:
 ```elm
+-- Named function
+isPositive n = n > 0
+
+-- Anonymous function:
 \n -> n > 0
 ```
 
 Elm’s anonymous functions differ from named functions in three ways.
+
 @ul[](false)
+
 - They have no names
 - They begin with a "\"
 - Their parameters are followed by "->" instead of "="
+
 @ulend
 
 ---
@@ -91,10 +93,12 @@ wert = if a > 0 then a else -1 * a
 ### Operators
 
 @ul[](false)
+
 - Always accept two arguments
 - Are functions
 - Can be used infix, or prefix as "(op)":
   - 1 + 2 is equivalent to (+) 1 2
+
 @ulend
 
 ---
