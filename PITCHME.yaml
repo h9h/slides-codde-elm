@@ -1,0 +1,27 @@
+title: "h9h-slides"
+description: "Elm"
+thumbnail: assets/img/logo.jpg
+footnote: "Elm - (c) Heinke 2019"
+gatoken: UA-136559606-1
+
+# For Presentations, set to true:
+eager-loading : true
+
+# Status
+published : true
+
+# Code
+code-line-numbers: true
+highlight: xcode
+
+# Behavior
+transition : none
+print-fragments : true
+
+# Plugins
+charts : true
+mathjax : TeX-AMS_HTML-full
+
+# overrides
+logo : assets/img/logo.jpg
+theme-override : assets/css/PITCHME.css
