@@ -8,23 +8,21 @@
 ---
 ## Functions 1
 
-### Named function:
+Named function:
 ```elm
 isPositive n = n > 0
 ```
 
-### Anonymous function:
+Anonymous function:
 ```elm
 \n -> n > 0
 ```
 
-Why "n = n > 0" vs "n -> n > 0"?
-
 Elm’s anonymous functions differ from named functions in three ways.
 @ul
 - They have no names
-- They begin with a \
-- Their parameters are followed by -> instead of =
+- They begin with a "\"
+- Their parameters are followed by "->" instead of "="
 @ulend
 
 ---
@@ -37,8 +35,10 @@ multiply n m = n * m
 ``` 
 
 All elm functions are curried!
+
 JavaScript functions are "tupled" by default
-You could write
+
+In JavaScript you **could** write
 
 ```JS
   const add = x => y => x + y
@@ -50,7 +50,7 @@ You could write
 
 ---
 
-## No methods, only functions
+### No methods, only functions
 
 <table>
   <tr>
@@ -74,26 +74,28 @@ You could write
 
 ---
 
-## No statements, only expressions
+### No statements, only expressions
 
+JavaScript:
 ```JS
 const value = a > 0 ? a : -1 * a
 
 if (a > 0) { a } else { -1 * a } // huh?
 ```
 
+Elm:
 ```elm
 wert = if a > 0 then a else -1 * a
 ``` 
 ---
 
-## Operators
+### Operators
 
 @ul
-- Always accept zwo arguments
+- Always accept two arguments
 - Are functions
-- used infix, or as (op) prefix:
-  1 + 2 is equivalent to (+) 1 2
+- Can be used infix, or prefix as "(op)":
+  - 1 + 2 is equivalent to (+) 1 2
 @ulend
 
 ---
